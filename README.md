@@ -4,17 +4,13 @@ project:
   short_description: >
     This repository trains and evaluates an AdaBoost-based machine learning pipeline 
     for the Airline Passenger Satisfaction dataset.
-    
-    It automates data ingestion, validation, transformation, model training, and evaluation — 
+      It automates data ingestion, validation, transformation, model training, and evaluation — 
     all driven by YAML configurations.
-    
-    The system ensures a modular, reusable, and production-ready structure.
+        The system ensures a modular, reusable, and production-ready structure.
 
   dataset:
-  
-    name: "Airline Passenger Satisfaction Dataset"
-    
-    source: "https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction"
+      name: "Airline Passenger Satisfaction Dataset"
+        source: "https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction"
     
     description: >
       The dataset contains passenger details, flight information, and service feedback.
