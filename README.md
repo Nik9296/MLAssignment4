@@ -1,26 +1,20 @@
-
-
 project:
   title: "ML Assignment 4 — Airline Passenger Satisfaction Pipeline (AdaBoost)"
   
   short_description: >
-      
     This project implements a complete Machine Learning pipeline using the AdaBoost Classifier 
-    on the Airline Passenger Satisfaction dataset. It automates all key stages — 
-    Data Ingestion, Validation, Transformation, Model Training, and Evaluation — 
-    controlled entirely through YAML configurations. 
+    on the Airline Passenger Satisfaction dataset. 
+    It automates all key stages — Data Ingestion, Validation, Transformation, 
+    Model Training, and Evaluation — controlled entirely through YAML configurations. 
     The system ensures a modular, reusable, and production-ready structure.
-    
-  dataset: 
+  
+  dataset:
     name: "Airline Passenger Satisfaction Dataset"
-    
     source: "Kaggle - https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction"
     description: >
-    
       The dataset contains information about airline passengers including 
       flight details, service quality feedback, and overall satisfaction levels.
       The goal is to predict passenger satisfaction based on various flight and service attributes.
-      
 
 tech_stack:
   - Python
@@ -81,5 +75,6 @@ setup_instructions:
 
 run_instructions: |
   Run the complete ML pipeline (Ingestion → Validation → Transformation → Training → Evaluation):
+  
   ```bash
   python main.py
